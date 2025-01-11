@@ -42,8 +42,8 @@ const App = () => {
     <div className={css.app}>
       <h1>Phonebook</h1>
       <ContactForm onSubmit={addContact} />
-      <SearchBox filter={filter} onChange={handleFilterChange} /> {/* Передаем фильтр в компонент SearchBox */}
-      <ContactList contacts={filteredContacts} onDelete={deleteContact} /> {/* Передаем отфильтрованные контакты */}
+      <SearchBox filter={filter} onChange={handleFilterChange} />
+      <ContactList contacts={filteredContacts} onDelete={deleteContact} />
     </div>
   );
 };

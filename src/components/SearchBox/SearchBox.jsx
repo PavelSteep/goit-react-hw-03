@@ -8,7 +8,7 @@ const SearchBox = ({ filter, onChange }) => (
       className={css.input} 
       type="text" 
       value={filter} 
-      onChange={onChange} // Обработчик изменения значения поля
+      onChange={onChange}
     />
   </label>
 );
