@@ -3,44 +3,38 @@
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  min-width: 40%;
   padding: 10px;
   margin: 10px 0;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap;
-}
-
-.contactDetails {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+  border-bottom: 1px solid #ccc;
 }
 
 .icons {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  align-items: center;
+  gap: 10px;
 }
 
-.clientIcon,
-.phoneIcon {
-  font-size: 20px;
+.iconUser,
+.iconPhone {
+  margin-right: 5px;
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
+.details {
+  flex-grow: 1;
+  margin-left: 10px;
 }
 
-.contactName {
-  font-size: 18px;
+.name {
   font-weight: bold;
-  color: #333;
 }
 
-.contactNumber {
-  font-size: 16px;
-  color: #666;
+.number {
+  color: gray;
 }
 
 .deleteButton {
